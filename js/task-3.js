@@ -22,7 +22,7 @@ const listRef = images.map(image => {
     const img = document.createElement('img');
     img.setAttribute('src', image.url);
     img.setAttribute('alt', image.alt);
-    img.setAttribute('width', 360)
+    img.setAttribute('width', 500)
     
     list.appendChild(img);
 
